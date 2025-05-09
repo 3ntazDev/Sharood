@@ -3,7 +3,6 @@
 import { useState, useEffect, useRef } from "react"
 import { motion } from "framer-motion"
 import { Download, Eye, BrainCircuit, Rewind, Focus, Sparkles, ArrowRight, Camera, Shield } from "lucide-react"
-
 export default function LandingPage() {
   const [isVisible, setIsVisible] = useState(false)
   const [isMobile, setIsMobile] = useState(false)
@@ -143,11 +142,8 @@ export default function LandingPage() {
                   {/* محاكاة لواجهة مشغل فيديو */}
                   <div className="absolute inset-0 flex items-center justify-center">
                     <div className="w-full h-full bg-gray-800 flex items-center justify-center">
-                      <img
-                        src="/placeholder.svg?height=400&width=600"
-                        alt="محاكاة لواجهة Sharood Mode"
-                        className="w-full h-full object-cover opacity-70"
-                      />
+                      <img src="/img2.jpg" alt="Image" />
+
 
                       {/* تراكب لإظهار وظيفة الكشف عن التشتت */}
                       <div className="absolute inset-0 flex flex-col items-center justify-center">
